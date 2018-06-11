@@ -21,7 +21,7 @@ def var_hyphen_to_list(s, l, t):
 
 def model_var_hyphen_to_list(s, l, t):
     new_list = []
-    if not isinstance(t[-1], (str, unicode)):
+    if not isinstance(t[-1], str):
         if t[-1][0] == '*':
             has_free = True
         elif t[-1][0] == '@':
@@ -118,7 +118,7 @@ OBSERVED_VARIABLE = (VARIABLE_KW +
                      COLON +
                      NAMES_KW +
                      ARE_KW +
-                     VARIABLES.setResultsName('observes') +
+                     VARIABLES.setResultsName('observed') +
                      SEMI).setName('observed_variable').setResultsName('observed_variable')
 
 # 模型配置

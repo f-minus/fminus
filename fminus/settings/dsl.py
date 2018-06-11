@@ -1,4 +1,4 @@
-from string import letters, digits
+from string import ascii_letters as letters, digits
 
 FILE_STRING = letters + digits + """!"#$%&'()*+,-./:<=>?@[\]^_`{|}~"""
 

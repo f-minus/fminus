@@ -23,7 +23,7 @@ class TestDsl:
 
     def test_ob_var(self):
         var_list = ['y1', 'y2', 'y3', 'y4', 'y5', 'y6', 'y7', 'y8', 'y9', 'y10', 'y11', 'y12']
-        assert list(self.Tree.observed_variable.observes) == var_list
+        assert list(self.Tree.observed_variable.observed) == var_list
 
     def test_model_factor_by(self):
         assert self.Tree.model.factor_by[0].latent == 'f1'
