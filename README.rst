@@ -6,8 +6,8 @@ fminus
 .. image:: https://img.shields.io/pypi/v/fminus.svg
         :target: https://pypi.python.org/pypi/fminus
 
-.. image:: https://img.shields.io/travis/inuyasha2012/fminus.svg
-        :target: https://travis-ci.org/inuyasha2012/fminus
+.. image:: https://img.shields.io/travis/f-minus/fminus.svg
+        :target: https://travis-ci.org/f-minus/fminus
 
 .. image:: https://readthedocs.org/projects/fminus/badge/?version=latest
         :target: https://fminus.readthedocs.io/en/latest/?badge=latest
@@ -16,7 +16,7 @@ fminus
 
 
 
-Python Boilerplate contains all the boilerplate you need to create a Python package.
+latent variable modeling, structural equation modeling and more, free and open source alternatives to mplus
 
 
 * Free software: MIT license
