@@ -9,6 +9,9 @@ fminus
 .. image:: https://img.shields.io/travis/f-minus/fminus.svg
         :target: https://travis-ci.org/f-minus/fminus
 
+.. image:: https://coveralls.io/repos/github/f-minus/fminus/badge.svg?branch=dev
+        :target: https://coveralls.io/github/f-minus/fminus?branch=dev
+
 .. image:: https://readthedocs.org/projects/fminus/badge/?version=latest
         :target: https://fminus.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
